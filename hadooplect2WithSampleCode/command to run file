@@ -1,0 +1,41 @@
+
+create ratings directory in hdfs and copy the ratings.dat to the dir
+create movies directory in hdfs and copy users.dat to it
+
+run the command in hadoop.
+note this is an example to show how join works.
+
+hadoop jar samplejoin.jar JoinExample ratings movies output 12333
+
+
+hdfs dfs -cat output/* | less
+
+
+1       mov~Toy Story (1995)
+1       rat~3
+1       rat~5
+1       rat~4
+1       rat~3
+1       rat~5
+1       rat~5
+1       rat~3
+1       rat~5
+1       rat~3
+1       rat~5
+1       rat~3
+1       rat~4
+1       rat~5
+1       rat~3
+1       rat~4
+1       rat~4
+1       rat~4
+1       rat~5
+1       rat~5
+1       rat~5
+1       rat~3
+1       rat~4
+
+Note the movieid 1 maps to Toy Story and the ratings from ratings.dat file given to Toy Story
+
+
+

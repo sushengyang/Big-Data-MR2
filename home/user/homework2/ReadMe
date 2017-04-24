@@ -1,0 +1,36 @@
+Homework2
+
+question 1 
+
+java source code : assignment2_Q1
+jar:  Find_male.jar
+
+
+hadoop jar /home/user/WordCountSample/Find_male.jar Find_male /input/users.dat /input/ratings.dat /outputq1 11
+
+
+movieID(for example) :11
+the output is as below:
+
+654
+
+question 2
+
+java source code :assignment2_Q2
+jar:  Find_name.jar
+
+hadoop jar /home/user/WordCountSample/Find_name.jar Find_name /input/movies.dat /input/ratings.dat /output /output1 /output11
+
+
+(movieID)     (movieName)               (Rating)
+3881	Bittersweet Motel (2000)	5.0
+3656	Lured (1947)	5.0
+3607	One Little Indian (1973)	5.0
+3382	Song of Freedom (1936)	5.0
+3280	Baby, The (1973)	5.0
+3233	Smashing Time (1967)	5.0
+3172	Ulysses (Ulisse) (1954)	5.0
+787	Gate of Heavenly Peace, The (1995)	5.0
+989	Schlafes Bruder (Brother of Sleep) (1995)	5.0
+1830	Follow the Bitch (1998)	5.0
+
